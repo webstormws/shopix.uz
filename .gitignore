@@ -8,3 +8,6 @@ venv/
 .venv/
 media/
 staticfiles/
+node_modules/
+adminpanel/node_modules/
+adminpanel/dist/
