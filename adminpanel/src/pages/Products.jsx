@@ -5,7 +5,7 @@ import Header from '../components/Header';
 const resolveImage = (url) => {
   if (!url) return null;
   if (url.startsWith('http')) return url;
-  return `http://127.0.0.1:8000${url}`;
+  return `https://hearty-learning-production-d991.up.railway.app${url}`;
 };
 
 export default function Products() {
