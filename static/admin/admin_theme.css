@@ -1,0 +1,57 @@
+body {
+    background: #f4f5f7;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    background: #2f6476;
+    border-bottom: 3px solid #1d4b5f;
+}
+
+#branding h1, #branding a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #2f6476;
+    color: #fff;
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input {
+    background: #2f6476;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+}
+
+.button:hover, input[type="submit"]:hover {
+    background: #224d60;
+}
+
+#changelist-filter {
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.object-tools a {
+    background: #2f6476;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#content {
+    padding: 20px;
+}
+
+.table {
+    background: #fff;
+}
+
+:root {
+    --header-bg: #2f6476;
+    --header-color: #fff;
+    --accent: #4a9bb9;
+}

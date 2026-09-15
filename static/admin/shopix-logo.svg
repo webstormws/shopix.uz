@@ -1,0 +1,41 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="120" y1="20" x2="520" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD84D"/>
+      <stop offset="0.22" stop-color="#FF9A1F"/>
+      <stop offset="0.52" stop-color="#FF4DA6"/>
+      <stop offset="0.78" stop-color="#3AB7FF"/>
+      <stop offset="1" stop-color="#21D4FD"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="220" y1="90" x2="610" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C6FF"/>
+      <stop offset="0.5" stop-color="#3F7BFF"/>
+      <stop offset="1" stop-color="#9A60FF"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10,10)">
+    <path d="M43 58H112C118 58 123 62 123 68V74H74C66 74 59 80 59 88C59 96 66 102 74 102H150C161 102 170 111 170 122C170 133 161 142 150 142H118C110 142 104 136 104 128H51C42 128 35 121 35 112C35 103 42 96 51 96H107C115 96 122 90 122 82C122 74 115 68 107 68H43C32 68 23 59 23 48C23 37 32 28 43 28H133C141 28 147 34 147 42V44H70C61 44 54 51 54 60C54 69 61 76 70 76H166C175 76 183 84 183 93C183 104 175 112 166 112H148C141 112 135 117 135 124V126C135 134 141 140 149 140H153C168 140 181 127 181 112C181 100 171 90 159 89L160 86C160 79 154 74 147 74H133C124 74 117 67 117 58V52C117 41 108 32 97 32H43C24 32 9 47 9 66C9 85 24 100 43 100H52V58H43Z" fill="url(#g1)"/>
+    <path d="M140 148C140 113 169 84 204 84H221C259 84 289 114 289 152V154H140V148Z" fill="url(#g1)"/>
+    <path d="M165 145C165 123 182 105 204 105H221C243 105 260 123 260 145V152H165V145Z" fill="#0C0F18" opacity="0.16"/>
+    <path d="M277 164H476C524 164 562 202 562 250C562 258 557 264 549 264H280C272 264 267 258 267 250C267 214 235 184 196 184H180C170 184 163 177 163 167C163 157 170 150 180 150H280C281 150 282 150 283 150L277 164Z" fill="url(#g2)"/>
+    <path d="M288 127C288 87 320 55 360 55H470C510 55 542 87 542 127V130H288V127Z" fill="url(#g2)"/>
+  </g>
+
+  <g transform="translate(0,0)">
+    <circle cx="172" cy="164" r="18" fill="#16324E"/>
+    <circle cx="172" cy="164" r="11" fill="#F6F7FB"/>
+    <circle cx="425" cy="164" r="18" fill="#16324E"/>
+    <circle cx="425" cy="164" r="11" fill="#F6F7FB"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M25 80H120" stroke="url(#g1)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M38 108H118" stroke="url(#g1)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M52 136H130" stroke="url(#g1)" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="310" y="160" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="700" letter-spacing="-4">Shopix</text>
+  </g>
+</svg>

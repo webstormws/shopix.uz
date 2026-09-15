@@ -1,0 +1,19 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}{{ title }} | Shopix Admin{% endblock %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/admin_theme.css' %}">
+{% endblock %}
+
+{% block branding %}
+<div id="site-name" style="display:flex; align-items:center; gap:12px; padding:10px 0;">
+    <a href="{% url 'admin:index' %}" style="display:inline-flex; align-items:center; text-decoration:none;">
+        <img src="{% static 'admin/shopix-logo.svg' %}" alt="Shopix" style="height:52px; width:auto; display:block;" />
+    </a>
+</div>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
